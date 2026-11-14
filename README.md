@@ -1,4 +1,4 @@
-# Bookmark
+# bookmark
 
 A web-based system for tracking library visitors, built for local schools.
 
