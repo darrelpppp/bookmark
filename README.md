@@ -1,4 +1,4 @@
-# Library Visitor Management System
+# Bookmark
 
 A web-based system for tracking library visitors, built for local schools.
 
@@ -19,7 +19,7 @@ A web-based system for tracking library visitors, built for local schools.
 ## Folder Structure
 
 ```
-library-visitor-management/
+bookmark/
 ├── backend/     # Node.js + Express + MongoDB (API server)
 └── frontend/    # HTML + JS + CSS (Client)
 ```
@@ -37,8 +37,8 @@ library-visitor-management/
 Clone the repository:
 
 ```
-git clone https://github.com/YOUR_USERNAME/library-visitor-management.git
-cd library-visitor-management
+git clone https://github.com/YOUR_USERNAME/bookmark.git
+cd bookmark
 ```
 
 #### Backend Setup

@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Log = require('../models/Log');
 
-mongoose.connect('mongodb://localhost:27017/library_visitors');
+mongoose.connect('mongodb://localhost:27017/bookmark');
 
 async function run() {
   try {

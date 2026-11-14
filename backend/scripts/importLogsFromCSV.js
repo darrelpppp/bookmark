@@ -6,7 +6,7 @@ const Log = require('../models/Log');
 const Student = require('../models/Student');
 const Visitor = require('../models/Visitor'); // <-- include this
 
-mongoose.connect('mongodb://localhost:27017/library_visitors');
+mongoose.connect('mongodb://localhost:27017/bookmark');
 
 const filePath = path.join(__dirname, 'history_visitor_logs_2025-07-30.csv');
 

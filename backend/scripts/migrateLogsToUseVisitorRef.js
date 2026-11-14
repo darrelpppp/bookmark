@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const Log = require('../models/Log');
 const Student = require('../models/Student');
 
-mongoose.connect('mongodb://localhost:27017/library_visitors', {
+mongoose.connect('mongodb://localhost:27017/bookmark', {
   // These options are deprecated in modern MongoDB drivers but harmless
   useNewUrlParser: true,
   useUnifiedTopology: true,

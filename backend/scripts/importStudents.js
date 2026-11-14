@@ -3,7 +3,7 @@ const fs = require('fs');
 const csv = require('csv-parser');
 const Student = require('../models/Student');
 
-mongoose.connect('mongodb://localhost:27017/library_visitors');
+mongoose.connect('mongodb://localhost:27017/bookmark');
 
 async function importStudents() {
   const students = [];

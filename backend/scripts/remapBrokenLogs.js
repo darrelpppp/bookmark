@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Log = require('../models/Log');
 const Student = require('../models/Student');
 
-mongoose.connect('mongodb://localhost:27017/library_visitors');
+mongoose.connect('mongodb://localhost:27017/bookmark');
 
 (async () => {
   const logs = await Log.find({ visitor: null });
